@@ -61,7 +61,6 @@ public class Spring01ApplicationTests {
             String s1 = s.toUpperCase();
             if(s1.equals("E")){
                 in.close();
-
                 break;
             }
            System.out.println(s1);
