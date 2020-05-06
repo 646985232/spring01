@@ -38,9 +38,6 @@ public class Spring01ApplicationTests {
         System.out.println(i3);
     }
 
-
-
-
     public static void main(String[] args) {
         BufferedReader br=null;
         try {
@@ -54,7 +51,6 @@ public class Spring01ApplicationTests {
         }*/
         while (true){
             System.out.println("请输入英文字母：");
-
             String s = null;
             s = br.readLine();
             Executors.newFixedThreadPool(5);
